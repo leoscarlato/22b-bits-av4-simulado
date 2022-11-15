@@ -35,7 +35,7 @@ Escreva uma função (`abs.vm`) em linguagem VM que retorna o valor absoluto (m�
 def abs(val)
 ```
 
-### abs
+### factorial
 
 | Arquivo: `vm/fact/fact.vm` | test | pts HW | pts SW |
 |----------------------------|------|--------|--------|
