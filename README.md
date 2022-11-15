@@ -111,12 +111,11 @@ A tradução do comando `swap` de `vm` para `nasm` deve ser feito no `Code.py`
 |---------------------------------|--------|--------|
 | `pytest -k add3`                |        | x      |
 
-Esta nova instrução VM deve fazer o valor do topo da pilha, como no exemplo a seguir;
+Esta nova instrução VM deve fazer o valor do topo da pilha, como no exemplo a seguir:
 
 ``` text
-                          27
-       14         SP-->   14
-       12                 12
+       14                 27
+       12          SP --> 12
        01                 01
  SP-->              
              add3
@@ -125,5 +124,5 @@ Esta nova instrução VM deve fazer o valor do topo da pilha, como no exemplo a 
 A tradução do comando `add3` de `vm` para `nasm` deve ser feito no `Code.py`
 
 ``` python
-    if command == "add3":
+    elif command == "add3":
 ```
