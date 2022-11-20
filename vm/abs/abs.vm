@@ -1,1 +1,14 @@
 function abs 0
+    push argument 0
+    push constant 0
+    lt
+    if-goto invert
+    push argument 0
+    goto end
+
+label invert
+    push argument 0
+    neg
+
+label end
+    return

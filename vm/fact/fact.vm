@@ -1,1 +1,54 @@
-function fact 0
+function fact 2
+    push argument 0
+    push constant 1
+    lt
+    if-goto caso0
+
+    push argument 0
+    push constant 1
+    eq
+    if-goto caso1
+
+    push argument 0
+    push constant 1
+    sub
+    pop local 1
+
+    push argument 0
+    pop local 0
+
+label while
+
+    //local 1 = argument 0 - 1
+    //local 0 = argument 0
+
+    push local 1
+    push constant 1
+    lt
+    if-goto end
+
+    push local 0
+    push local 1
+    call mult 2
+    pop local 0
+
+    push local 1
+    push constant 1
+    sub
+    pop local 1
+
+    goto while
+
+label caso0
+    push constant 1
+    pop local 0
+    goto end
+
+label caso1
+    push constant 1
+    pop local 0
+    goto end
+
+label end
+    push local 0
+    return
