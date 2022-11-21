@@ -1,7 +1,7 @@
 leaw $SP, %A
 movw (%A), %A
 decw %A
-movw (%A), %D, %D
+movw (%A), %D
 decw %A
 addw (%A), %D, %D
 decw %A

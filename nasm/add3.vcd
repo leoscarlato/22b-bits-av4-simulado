@@ -1,5 +1,5 @@
 $date
-    Sat Nov 19 16:50:46 2022
+    Mon Nov 21 09:34:44 2022
 $end
 $version
     MyHDL 0.11
@@ -18,7 +18,7 @@ $var reg 1 & writeM $end
 $var reg 1 ' clk $end
 $var reg 1 ( clkMem $end
 $var reg 1 ) rst $end
-$scope module cpu2 $end
+$scope module cpu0 $end
 $var reg 1 ) rst $end
 $var reg 15 % addressM $end
 $var reg 1 ' clk $end
@@ -36,7 +36,7 @@ $var reg 16 0 ula_x $end
 $var reg 16 1 ula_y $end
 $var reg 1 2 ula_zr $end
 $var reg 1 & writeM $end
-$scope module ula2 $end
+$scope module ula0 $end
 $var reg 16 0 x $end
 $var reg 16 1 y $end
 $var reg 6 - c $end
@@ -57,27 +57,27 @@ $var reg 16 > no_out $end
 $var reg 16 ? nx_out $end
 $var reg 16 @ ny_out $end
 $var reg 16 / saida $end
-$scope module zerador4 $end
+$scope module zerador0 $end
 $var reg 16 0 a $end
 $var reg 16 3 y $end
 $var reg 1 6 z $end
 $upscope $end
-$scope module inversor6 $end
+$scope module inversor0 $end
 $var reg 16 3 a $end
 $var reg 16 ? y $end
 $var reg 1 7 z $end
 $upscope $end
-$scope module zerador5 $end
+$scope module zerador1 $end
 $var reg 16 1 a $end
 $var reg 16 4 y $end
 $var reg 1 8 z $end
 $upscope $end
-$scope module inversor7 $end
+$scope module inversor1 $end
 $var reg 16 4 a $end
 $var reg 16 @ y $end
 $var reg 1 9 z $end
 $upscope $end
-$scope module add162 $end
+$scope module add160 $end
 $var reg 16 ? a $end
 $var reg 16 @ b $end
 $var reg 16 A out_q $end
@@ -155,7 +155,7 @@ $var reg 1 "" _q(13) $end
 $var reg 1 "# _q(14) $end
 $var reg 1 "$ _q(15) $end
 $upscope $end
-$scope module fullAdder32 $end
+$scope module fullAdder0 $end
 $var reg 1 B a $end
 $var reg 1 R b $end
 $var reg 1 b c $end
@@ -164,20 +164,20 @@ $var reg 1 "% s1 $end
 $var reg 1 c carry $end
 $var reg 1 "& s2 $end
 $var reg 1 "' s3 $end
-$scope module halfAdder64 $end
+$scope module halfAdder0 $end
 $var reg 1 B a $end
 $var reg 1 R b $end
 $var reg 1 "& carry $end
 $var reg 1 "% q $end
 $upscope $end
-$scope module halfAdder65 $end
+$scope module halfAdder1 $end
 $var reg 1 b a $end
 $var reg 1 "% b $end
 $var reg 1 "' carry $end
 $var reg 1 s q $end
 $upscope $end
 $upscope $end
-$scope module fullAdder33 $end
+$scope module fullAdder1 $end
 $var reg 1 C a $end
 $var reg 1 S b $end
 $var reg 1 c c $end
@@ -186,20 +186,20 @@ $var reg 1 "( s1 $end
 $var reg 1 d carry $end
 $var reg 1 ") s2 $end
 $var reg 1 "* s3 $end
-$scope module halfAdder66 $end
+$scope module halfAdder2 $end
 $var reg 1 C a $end
 $var reg 1 S b $end
 $var reg 1 ") carry $end
 $var reg 1 "( q $end
 $upscope $end
-$scope module halfAdder67 $end
+$scope module halfAdder3 $end
 $var reg 1 c a $end
 $var reg 1 "( b $end
 $var reg 1 "* carry $end
 $var reg 1 t q $end
 $upscope $end
 $upscope $end
-$scope module fullAdder34 $end
+$scope module fullAdder2 $end
 $var reg 1 D a $end
 $var reg 1 T b $end
 $var reg 1 d c $end
@@ -208,20 +208,20 @@ $var reg 1 "+ s1 $end
 $var reg 1 e carry $end
 $var reg 1 ", s2 $end
 $var reg 1 "- s3 $end
-$scope module halfAdder68 $end
+$scope module halfAdder4 $end
 $var reg 1 D a $end
 $var reg 1 T b $end
 $var reg 1 ", carry $end
 $var reg 1 "+ q $end
 $upscope $end
-$scope module halfAdder69 $end
+$scope module halfAdder5 $end
 $var reg 1 d a $end
 $var reg 1 "+ b $end
 $var reg 1 "- carry $end
 $var reg 1 u q $end
 $upscope $end
 $upscope $end
-$scope module fullAdder35 $end
+$scope module fullAdder3 $end
 $var reg 1 E a $end
 $var reg 1 U b $end
 $var reg 1 e c $end
@@ -230,20 +230,20 @@ $var reg 1 ". s1 $end
 $var reg 1 f carry $end
 $var reg 1 "/ s2 $end
 $var reg 1 "0 s3 $end
-$scope module halfAdder70 $end
+$scope module halfAdder6 $end
 $var reg 1 E a $end
 $var reg 1 U b $end
 $var reg 1 "/ carry $end
 $var reg 1 ". q $end
 $upscope $end
-$scope module halfAdder71 $end
+$scope module halfAdder7 $end
 $var reg 1 e a $end
 $var reg 1 ". b $end
 $var reg 1 "0 carry $end
 $var reg 1 v q $end
 $upscope $end
 $upscope $end
-$scope module fullAdder36 $end
+$scope module fullAdder4 $end
 $var reg 1 F a $end
 $var reg 1 V b $end
 $var reg 1 f c $end
@@ -252,20 +252,20 @@ $var reg 1 "1 s1 $end
 $var reg 1 g carry $end
 $var reg 1 "2 s2 $end
 $var reg 1 "3 s3 $end
-$scope module halfAdder72 $end
+$scope module halfAdder8 $end
 $var reg 1 F a $end
 $var reg 1 V b $end
 $var reg 1 "2 carry $end
 $var reg 1 "1 q $end
 $upscope $end
-$scope module halfAdder73 $end
+$scope module halfAdder9 $end
 $var reg 1 f a $end
 $var reg 1 "1 b $end
 $var reg 1 "3 carry $end
 $var reg 1 w q $end
 $upscope $end
 $upscope $end
-$scope module fullAdder37 $end
+$scope module fullAdder5 $end
 $var reg 1 G a $end
 $var reg 1 W b $end
 $var reg 1 g c $end
@@ -274,20 +274,20 @@ $var reg 1 "4 s1 $end
 $var reg 1 h carry $end
 $var reg 1 "5 s2 $end
 $var reg 1 "6 s3 $end
-$scope module halfAdder74 $end
+$scope module halfAdder10 $end
 $var reg 1 G a $end
 $var reg 1 W b $end
 $var reg 1 "5 carry $end
 $var reg 1 "4 q $end
 $upscope $end
-$scope module halfAdder75 $end
+$scope module halfAdder11 $end
 $var reg 1 g a $end
 $var reg 1 "4 b $end
 $var reg 1 "6 carry $end
 $var reg 1 x q $end
 $upscope $end
 $upscope $end
-$scope module fullAdder38 $end
+$scope module fullAdder6 $end
 $var reg 1 H a $end
 $var reg 1 X b $end
 $var reg 1 h c $end
@@ -296,20 +296,20 @@ $var reg 1 "7 s1 $end
 $var reg 1 i carry $end
 $var reg 1 "8 s2 $end
 $var reg 1 "9 s3 $end
-$scope module halfAdder76 $end
+$scope module halfAdder12 $end
 $var reg 1 H a $end
 $var reg 1 X b $end
 $var reg 1 "8 carry $end
 $var reg 1 "7 q $end
 $upscope $end
-$scope module halfAdder77 $end
+$scope module halfAdder13 $end
 $var reg 1 h a $end
 $var reg 1 "7 b $end
 $var reg 1 "9 carry $end
 $var reg 1 y q $end
 $upscope $end
 $upscope $end
-$scope module fullAdder39 $end
+$scope module fullAdder7 $end
 $var reg 1 I a $end
 $var reg 1 Y b $end
 $var reg 1 i c $end
@@ -318,20 +318,20 @@ $var reg 1 ": s1 $end
 $var reg 1 j carry $end
 $var reg 1 "; s2 $end
 $var reg 1 "< s3 $end
-$scope module halfAdder78 $end
+$scope module halfAdder14 $end
 $var reg 1 I a $end
 $var reg 1 Y b $end
 $var reg 1 "; carry $end
 $var reg 1 ": q $end
 $upscope $end
-$scope module halfAdder79 $end
+$scope module halfAdder15 $end
 $var reg 1 i a $end
 $var reg 1 ": b $end
 $var reg 1 "< carry $end
 $var reg 1 z q $end
 $upscope $end
 $upscope $end
-$scope module fullAdder40 $end
+$scope module fullAdder8 $end
 $var reg 1 J a $end
 $var reg 1 Z b $end
 $var reg 1 j c $end
@@ -340,20 +340,20 @@ $var reg 1 "= s1 $end
 $var reg 1 k carry $end
 $var reg 1 "> s2 $end
 $var reg 1 "? s3 $end
-$scope module halfAdder80 $end
+$scope module halfAdder16 $end
 $var reg 1 J a $end
 $var reg 1 Z b $end
 $var reg 1 "> carry $end
 $var reg 1 "= q $end
 $upscope $end
-$scope module halfAdder81 $end
+$scope module halfAdder17 $end
 $var reg 1 j a $end
 $var reg 1 "= b $end
 $var reg 1 "? carry $end
 $var reg 1 { q $end
 $upscope $end
 $upscope $end
-$scope module fullAdder41 $end
+$scope module fullAdder9 $end
 $var reg 1 K a $end
 $var reg 1 [ b $end
 $var reg 1 k c $end
@@ -362,20 +362,20 @@ $var reg 1 "@ s1 $end
 $var reg 1 l carry $end
 $var reg 1 "A s2 $end
 $var reg 1 "B s3 $end
-$scope module halfAdder82 $end
+$scope module halfAdder18 $end
 $var reg 1 K a $end
 $var reg 1 [ b $end
 $var reg 1 "A carry $end
 $var reg 1 "@ q $end
 $upscope $end
-$scope module halfAdder83 $end
+$scope module halfAdder19 $end
 $var reg 1 k a $end
 $var reg 1 "@ b $end
 $var reg 1 "B carry $end
 $var reg 1 | q $end
 $upscope $end
 $upscope $end
-$scope module fullAdder42 $end
+$scope module fullAdder10 $end
 $var reg 1 L a $end
 $var reg 1 \ b $end
 $var reg 1 l c $end
@@ -384,20 +384,20 @@ $var reg 1 "C s1 $end
 $var reg 1 m carry $end
 $var reg 1 "D s2 $end
 $var reg 1 "E s3 $end
-$scope module halfAdder84 $end
+$scope module halfAdder20 $end
 $var reg 1 L a $end
 $var reg 1 \ b $end
 $var reg 1 "D carry $end
 $var reg 1 "C q $end
 $upscope $end
-$scope module halfAdder85 $end
+$scope module halfAdder21 $end
 $var reg 1 l a $end
 $var reg 1 "C b $end
 $var reg 1 "E carry $end
 $var reg 1 } q $end
 $upscope $end
 $upscope $end
-$scope module fullAdder43 $end
+$scope module fullAdder11 $end
 $var reg 1 M a $end
 $var reg 1 ] b $end
 $var reg 1 m c $end
@@ -406,20 +406,20 @@ $var reg 1 "F s1 $end
 $var reg 1 n carry $end
 $var reg 1 "G s2 $end
 $var reg 1 "H s3 $end
-$scope module halfAdder86 $end
+$scope module halfAdder22 $end
 $var reg 1 M a $end
 $var reg 1 ] b $end
 $var reg 1 "G carry $end
 $var reg 1 "F q $end
 $upscope $end
-$scope module halfAdder87 $end
+$scope module halfAdder23 $end
 $var reg 1 m a $end
 $var reg 1 "F b $end
 $var reg 1 "H carry $end
 $var reg 1 ~ q $end
 $upscope $end
 $upscope $end
-$scope module fullAdder44 $end
+$scope module fullAdder12 $end
 $var reg 1 N a $end
 $var reg 1 ^ b $end
 $var reg 1 n c $end
@@ -428,20 +428,20 @@ $var reg 1 "I s1 $end
 $var reg 1 o carry $end
 $var reg 1 "J s2 $end
 $var reg 1 "K s3 $end
-$scope module halfAdder88 $end
+$scope module halfAdder24 $end
 $var reg 1 N a $end
 $var reg 1 ^ b $end
 $var reg 1 "J carry $end
 $var reg 1 "I q $end
 $upscope $end
-$scope module halfAdder89 $end
+$scope module halfAdder25 $end
 $var reg 1 n a $end
 $var reg 1 "I b $end
 $var reg 1 "K carry $end
 $var reg 1 "! q $end
 $upscope $end
 $upscope $end
-$scope module fullAdder45 $end
+$scope module fullAdder13 $end
 $var reg 1 O a $end
 $var reg 1 _ b $end
 $var reg 1 o c $end
@@ -450,20 +450,20 @@ $var reg 1 "L s1 $end
 $var reg 1 p carry $end
 $var reg 1 "M s2 $end
 $var reg 1 "N s3 $end
-$scope module halfAdder90 $end
+$scope module halfAdder26 $end
 $var reg 1 O a $end
 $var reg 1 _ b $end
 $var reg 1 "M carry $end
 $var reg 1 "L q $end
 $upscope $end
-$scope module halfAdder91 $end
+$scope module halfAdder27 $end
 $var reg 1 o a $end
 $var reg 1 "L b $end
 $var reg 1 "N carry $end
 $var reg 1 "" q $end
 $upscope $end
 $upscope $end
-$scope module fullAdder46 $end
+$scope module fullAdder14 $end
 $var reg 1 P a $end
 $var reg 1 ` b $end
 $var reg 1 p c $end
@@ -472,20 +472,20 @@ $var reg 1 "O s1 $end
 $var reg 1 q carry $end
 $var reg 1 "P s2 $end
 $var reg 1 "Q s3 $end
-$scope module halfAdder92 $end
+$scope module halfAdder28 $end
 $var reg 1 P a $end
 $var reg 1 ` b $end
 $var reg 1 "P carry $end
 $var reg 1 "O q $end
 $upscope $end
-$scope module halfAdder93 $end
+$scope module halfAdder29 $end
 $var reg 1 p a $end
 $var reg 1 "O b $end
 $var reg 1 "Q carry $end
 $var reg 1 "# q $end
 $upscope $end
 $upscope $end
-$scope module fullAdder47 $end
+$scope module fullAdder15 $end
 $var reg 1 Q a $end
 $var reg 1 a b $end
 $var reg 1 q c $end
@@ -494,13 +494,13 @@ $var reg 1 "R s1 $end
 $var reg 1 r carry $end
 $var reg 1 "S s2 $end
 $var reg 1 "T s3 $end
-$scope module halfAdder94 $end
+$scope module halfAdder30 $end
 $var reg 1 Q a $end
 $var reg 1 a b $end
 $var reg 1 "S carry $end
 $var reg 1 "R q $end
 $upscope $end
-$scope module halfAdder95 $end
+$scope module halfAdder31 $end
 $var reg 1 q a $end
 $var reg 1 "R b $end
 $var reg 1 "T carry $end
@@ -508,18 +508,18 @@ $var reg 1 "$ q $end
 $upscope $end
 $upscope $end
 $upscope $end
-$scope module inversor8 $end
+$scope module inversor2 $end
 $var reg 16 = a $end
 $var reg 16 > y $end
 $var reg 1 : z $end
 $upscope $end
-$scope module comparador2 $end
+$scope module comparador0 $end
 $var reg 16 > a $end
 $var reg 1 . ng $end
 $var reg 1 2 zr $end
 $upscope $end
 $upscope $end
-$scope module pc2 $end
+$scope module pc0 $end
 $var reg 1 ) rst $end
 $var reg 1 ' clk $end
 $var reg 16 + i $end
@@ -527,14 +527,14 @@ $var reg 1 * load $end
 $var reg 15 $ output $end
 $upscope $end
 $upscope $end
-$scope module ram_sim2 $end
+$scope module ram_sim0 $end
 $var reg 1 ( clk $end
 $var reg 15 % addr $end
 $var reg 16 # din $end
 $var reg 16 " dout $end
 $var reg 1 & we $end
 $upscope $end
-$scope module rom_sim2 $end
+$scope module rom_sim0 $end
 $var reg 1 ' clk $end
 $var reg 15 $ addr $end
 $var reg 18 ! dout $end
